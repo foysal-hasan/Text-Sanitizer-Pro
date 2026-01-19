@@ -36,10 +36,69 @@ To add custom word mappings:
 ## Default Words
 
 The extension comes with these default word mappings:
-- `payment` → `pa_yment`
+
+### Communication Triggers
 - `email` → `ema_il`
+- `gmail` → `gma_il`
 - `whatsapp` → `wha_tsapp`
 - `skype` → `sky_pe`
+- `telegram` → `tele_gram`
+- `discord` → `dis_cord`
+- `phone` → `pho_ne`
+- `mobile` → `mobi_le`
+- `number` → `num_ber`
+- `contact` → `conta_ct`
+- `zoom` → `zo_om`
+- `slack` → `sla_ck`
+- `linkedin` → `linke_din`
+- `facebook` → `face_book`
+- `instagram` → `insta_gram`
+- `twitter` → `twitt_er`
+- `youtube` → `youtu_be`
+- `tiktok` → `tik_tok`
+- `snapchat` → `snapc_hat`
+- `pinterest` → `pinter_est`
+- `reddit` → `redd_it`
+- `tumblr` → `tumb_lr`
+
+### Payment Triggers
+- `payment` → `pa_yment`
+- `paypal` → `payp_al`
+- `pay` → `p_ay`
+- `payoneer` → `payon_eer`
+- `crypto` → `cryp_to`
+- `bitcoin` → `bitc_oin`
+- `wire` → `w_ire`
+- `bank` → `b_ank`
+- `transfer` → `trans_fer`
+- `cash` → `c_ash`
+- `invoice` → `invo_ice`
+- `outside` → `outs_ide`
+- `direct` → `dir_ect`
+- `stripe` → `str_ipe`
+
+### Academic / Work Triggers
+- `homework` → `homew_ork`
+- `assignment` → `assig_nment`
+- `essay` → `ess_ay`
+- `thesis` → `the_sis`
+- `exam` → `ex_am`
+- `test` → `t_est`
+- `degree` → `deg_ree`
+
+### Reviews & Engagement
+- `review` → `rev_iew`
+- `feedback` → `feedb_ack`
+- `rating` → `rat_ing`
+- `trustpilot` → `trust_pilot`
+- `followers` → `follow_ers`
+- `subscribers` → `subscr_ibers`
+
+### Marketing / Spam Triggers
+- `guaranteed` → `guaran_teed`
+- `money` → `mon_ey`
+- `income` → `inco_me`
+- `profit` → `prof_it`
 
 ## Features
 
@@ -49,18 +108,3 @@ The extension comes with these default word mappings:
 - Word mappings synced across devices via Chrome sync
 - Clean, modern UI
 
-## Generating Icons
-
-The extension needs icon files (`icon16.png`, `icon48.png`, `icon128.png`). You have two options to generate them:
-
-### Option 1: Using the HTML Generator (Recommended)
-1. Open `generate-icons.html` in your web browser
-2. Click each "Download" button to save the icons
-3. Save all three PNG files in your extension folder
-
-### Option 2: Using Python Script
-1. Install Pillow: `pip install Pillow`
-2. Run: `python generate_icons.py`
-3. The icons will be generated automatically in your extension folder
-
-The icons feature a modern shield design with a checkmark, matching the extension's security/sanitization theme with a purple gradient background.
